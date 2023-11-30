@@ -54,6 +54,7 @@ function App() {
         <img
           className="banner-img"
           src={process.env.PUBLIC_URL + '/images/studybackground.jpeg'}
+          alt="배너이미지"
         />
         <div className="banner-subtitles">
           <p>

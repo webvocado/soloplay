@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
+import '../App.css';
 import { Table } from 'react-bootstrap';
 
 function Cart() {
   let array = [0, 0, 0, 0];
+  let [user] = useState('백승헌');
 
   return (
     <div>
-      <h6>백승헌의 장바구니</h6>
+      <h1 class="user-name">{user}의 장바구니</h1>
 
       <Table>
         <thead>
